@@ -38,7 +38,7 @@ The directory contents included within this distribution are:
 
 The distribution above was built and configured to be run in the Google Collaboratory environment. Google Colab is a cloud based implementation of a Jupyter Notebook environment which boasts free access to GPU accelerated environments. It’s this GPU availability which makes Google Colab the best choice for running this model.
 
-For implementing this distribution, drag the high level folder (“group51_ass2_impl”) containing the distribution to your Google Drive. It is recommended that this folder be copied at the top level of your Google Drive file system as this is where the script is, by default configured to run from. Note you can adjust this setting, please see the information below on changing the distribution location on your Google Drive.
+For implementing this distribution, unzip and drag the high level folder (“group51_ass2_impl”) containing the distribution to your Google Drive. It is recommended that this folder be copied at the top level of your Google Drive file system as this is where the script is, by default configured to run from. Note you can adjust this setting, please see the information below on changing the distribution location on your Google Drive.
 
 Unfortunately, due to the nature of the Google Colab environment, relative file paths cannot be implemented as they normally would on a local execution of the model. Therefore, if you place the distribution at any location other than the high level Google Drive, you will need to update the file paths to ensure the code executes.
 
