@@ -78,3 +78,8 @@ The output file can be found in ‘./model output’ which contains one output f
 # Final remarks
 
 As a final note on reproducibility, the Google Colaboratory environment used to generate this model made use of a Cuda enabled GPU which significantly boosted performance. Colab has multiple Nvidia GPUs available for use, however, as Colab is a free service that does not guarantee resource availability, there is no way to select a specific GPU. When using a GPU enhanced environment one will be allocated based on resource availability which may impact reproducibility, note that tests conducted to date have not found any issues with reproducibility stemming from this environment limitation. 
+
+# Points could have been improved
+* Clearly stating how EDA helped us to choose the models (algorithms)
+* Explaining about the parameter tuning and model development statistically in more detail 
+* Trying other pre-trained models, like BERT and RoBERTA
